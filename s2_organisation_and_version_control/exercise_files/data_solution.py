@@ -1,6 +1,7 @@
 import torch
 import typer
-
+def merge_conflict(self):
+    pass
 
 def normalize(images: torch.Tensor) -> torch.Tensor:
     """Normalize images."""
