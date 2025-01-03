@@ -1,6 +1,6 @@
 import torch
 import typer
-
+import numpy as np
 
 def normalize(images: torch.Tensor) -> torch.Tensor:
     """Normalize images."""
